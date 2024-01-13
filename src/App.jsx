@@ -1,16 +1,11 @@
-import Board from "./assets/components/Board"
-
-
-
+import Game from "./assets/components/Board";
 
 function App() {
-
-
   return (
     <>
-    <Board/>
+      <Game />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
